@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Manrope:wght@400;500;600;700;800&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+
+    /* common color palate */
+
+    :root {
+        --primary-color: #E02C6D;
+        --text-gray-color: #18191F;
+        --dark-color: rgba(0, 0, 0, 0.87);
+        --gray80-color: #5E6366;
+        --gray50-color: #787885;
+        --white-primary: #FFF;
+    }
+
+
+    /* default body style */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+
+.container {
+    width: 85%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+    /* header section style */
+
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 88px;
+}
+
+
+
+nav ul{
+    list-style: none;
+    display: flex;
+}
+
+nav ul li{
+    padding-left: 35px;
+}
+
+.logo{
+    color: #3A3A3A;
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-weight: 700;
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    color: #3A3A3A;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
