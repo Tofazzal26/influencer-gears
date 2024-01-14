@@ -62,6 +62,7 @@ nav ul li{
     font-family: 'Poppins';
     font-size: 24px;
     font-weight: 700;
+    cursor: pointer;
 }
 
 
@@ -277,14 +278,42 @@ nav ul li a{
 }
 
 
+    /* footer section start */
 
 
+footer {
+    background-color: #0A0826;
+}
+
+.footer-content {
+    text-align: center;
+    padding: 50px;
+    margin-top: 100px;
+}
+
+.footer-content h1{
+color: #FFF;
+font-family: 'Poppins';
+font-size: 30px;
+font-weight: 700;
+}
+
+.footer-content p{
+    color: #D9DBE1;
+    font-family: 'Manrope';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.footer-content *{
+    margin-bottom: 10px;
+}
 
 
-
-
-
-
-
-
-
+.footer-content i{
+    color: #D9DBE1;
+    font-size: 22px;
+    padding: 6px 12px;
+    cursor: pointer;
+}
