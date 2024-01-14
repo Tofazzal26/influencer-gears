@@ -143,6 +143,82 @@ nav ul li a{
 }
 
 
+    /* our collection start */
+
+
+.collection {
+    text-align: center;
+    color: var(--header-color);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Poppins';
+    font-size: 28px;
+    margin-top: 100px;
+    font-weight: 600;
+}
+
+.popular-collection {
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+
+.popular-card h1{
+    color: var(--text-gray-color);
+    font-family: 'Poppins';
+    font-size: 28px;
+    font-weight: 500;
+}
+
+
+.popular-card h3{
+    color: var(--dark-color);
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.popular-card h5{
+    color: var(--gray80-color);
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.popular-card p{
+    color: var(--gray50-color);
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.popular-card *{
+    margin-bottom: 5px;
+}
+
+
+.rating-start {
+    display: flex;
+}
+
+.rating-start img {
+    height: 20px;
+}
+
+
+.popular-card {
+    width: 330px;
+    padding: 15px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+
+
+
+
+
 
 
 
